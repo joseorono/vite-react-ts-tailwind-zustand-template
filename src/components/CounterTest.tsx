@@ -10,21 +10,26 @@ function CounterTest() {
   return (
     <div className={styles['App']}>
         
-        <div className='text-center text-2xl'>
+        <div className='text-center text-2xl my-3 p-2'>
           Count is 
-          <div className='my-3 p-2 text-5xl'>
+          <div className='text-center text-5xl'>
               {counterStore.count}
           </div>
         </div>
 
-        <button className={styles['button']} onClick={() => counterStore.increase()}>
-          +
-        </button>
-        <button className={styles['button']} onClick={() => counterStore.decrease()}>
-          -
-        </button>
+        <p className='text-center'>
+
+          <button className={styles['button']} onClick={() => counterStore.increase()}>
+            +
+          </button>
+          <button className={styles['button']} onClick={() => counterStore.decrease()}>
+            -
+          </button>
+
+        </p>
+
         
-        <p>
+        <p className='text-center my-5'>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
     </div>
