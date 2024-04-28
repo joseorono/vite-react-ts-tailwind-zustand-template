@@ -2,20 +2,31 @@
 import { useState } from 'react';
 import styles from './CounterTest.module.css';
 
+import { useCounterStore } from '~/store/useCounterStore';
+
 function CounterTest() {
-  const [count, setCount] = useState(0);
+  const counterStore = useCounterStore();
 
   return (
     <div className={styles['App']}>
-      <h1 className={styles['app-heading']}>Vite + React + TS + Tailwind</h1>
-      <div>
-        <button className={styles['button']} onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        
+        <div className='text-center text-2xl'>
+          Count is 
+          <div className='my-3 p-2 text-5xl'>
+              {counterStore.count}
+          </div>
+        </div>
+
+        <button className={styles['button']} onClick={() => counterStore.increase()}>
+          +
         </button>
+        <button className={styles['button']} onClick={() => counterStore.decrease()}>
+          -
+        </button>
+        
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
-      </div>
     </div>
   );
 }

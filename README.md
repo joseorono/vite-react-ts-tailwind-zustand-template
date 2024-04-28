@@ -13,6 +13,7 @@ This template has been configured with all of the tools required to create a Rea
 ![React](https://img.shields.io/badge/frontend-react-61DBFB?style=flat&logo=react)
 ![TypeScript](https://img.shields.io/badge/frontend-ts-blue?style=flat&logo=typescript)
 ![Tailwind](https://img.shields.io/badge/frontend-tailwind-00C4C4?style=flat&logo=tailwindcss)
+![Zustand](https://github.com/pmndrs/zustand)
 ![ESLint](https://img.shields.io/badge/linter-eslint-4B32C3?style=flat&logo=eslint)
 ![Prettier](https://img.shields.io/badge/formatter-prettier-F8BC45?style=flat&logo=prettier)
 ![Vitest](https://img.shields.io/badge/specs-vitest-yellow?style=flat&logo=vitest)
