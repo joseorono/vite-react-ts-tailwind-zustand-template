@@ -22,6 +22,7 @@ This template has been configured with all of the tools required to create a Rea
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/) for utility CSS classes
+- [Zustand](https://github.com/pmndrs/zustand) for State Management
 - [ESLint](https://eslint.org/) configured with some initial rules
 - [Prettier](https://prettier.io/) to enforce consistent code style
 - [Vitest](https://vitest.dev/) for unit testing and code coverage
@@ -66,7 +67,7 @@ This template has been configured with all of the tools required to create a Rea
 
 ## Contributing
 
-Feel free to [open an issue](https://github.com/nrabhiram/vite-react-ts-tailwind-template/issues/new) or create a PR if you'd like to contribute 🙌
+Feel free to [open an issue](https://github.com/joseorono/vite-react-ts-tailwind-zustand-template/issues/new) or create a PR if you'd like to contribute 🙌
 
 ## License
 
