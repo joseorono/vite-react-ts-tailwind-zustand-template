@@ -39,6 +39,11 @@ This template has been configured with all of the tools required to create a Rea
 
 ### Tailwind + CSS Modules
 
+
+> [!WARNING]  
+> :warning: **Only use it when neccessary**: The Tailwind Team explicitly recommends against it, but it can be a clutch when optimizing rendering time for some components. For more information, read the [Official Statement on the Matter](https://tailwindcss.com/docs/reusing-styles#extracting-classes-with-apply) and [this tweet by its creator](https://twitter.com/adamwathan/status/1559250403547652097).
+
+
 1. Create a CSS Module file by following the naming convention - `<Component>.module.css`
 2. Use the `@apply` directive in your CSS class definitions to use Tailwind's utility classes into your own custom CSS
     
